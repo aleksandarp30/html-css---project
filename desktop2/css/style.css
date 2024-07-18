@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+     font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #5385c1;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;   
+}
+.nav_top{
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    height: 20px;
+    font-size: 12px;
+}
+#semos_link{
+    font-weight: bolder;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin-right: 83%;
+}
+.links{
+    padding: 9px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.603);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.header1{
+    color: #5385c1;
+    font-weight: lighter;
+    font-size: 34px;
+}
+.par1{
+    color: #9a9a9a;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.sec2{
+    width: 1280px;
+    
+    color: #9a9a9a;
+    margin-bottom: 30px;
+}
+.sec3{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+.articles{
+    width: 45%;
+}
+.more{
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    background-color: #5385c1;
+}
+h3{
+    color: #5385c1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.last_par{
+    font-size: 16px;
+    color: #9a9a9a;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+footer{
+    margin-top: 100px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#footer_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-top: 1px solid rgba(0, 0, 0, 0.158);
+    width: 1280px;
+    height: 60px;
+}
+.long_text{
+    line-height: 25px;
+}
+i{
+    color: #5385c1;
+    padding:10px
+}
+.nav_bot{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    padding-left: 870px;
+}
+#credits{
+    color: #a9a9a9;
+    font-size: 12px;
+}
+.burger_menu{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        width: 100%;
+    }
+    .links{
+        display: none;
+    }
+    .nav_top{
+        width: 80%;
+    }
+    .burger_menu{
+        display: inline-block;
+    }
+    .bars{
+        color: white;
+        font-size: 16px;
+       
+    }
+    #semos_link{
+        
+        font-size: 15px;
+    }
+    .sec1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header1{
+        font-size: 40px;
+    }
+    .par1{
+        font-size: 19px;
+    }
+    .sec2{
+        width: 100%;
+        text-align: center;
+        height: fit-content;
+    }
+    .long_text{
+        font-size: 24px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .sec3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .articles{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .h3_articles{
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .last_par{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+    .more{
+        font-size: 31px;
+        padding: 1% 30% 1% 30%;
+    }
+    img{
+        width: 70%;
+    }
+    footer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer_nav{
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav_bot{
+        width: 80%;
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+        order: 1;
+        justify-content: center;
+    }
+    #credits{
+        order: 2;
+    }
+    i{
+        font-size: 20px;
+    }
+}
